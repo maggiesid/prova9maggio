@@ -1,5 +1,6 @@
 package com.example.margheritasidoti.a9maggio;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -13,5 +14,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("MAIN", "SET");
         Log.i("MAIN", "SET 2");
         Log.i("MAIN", "SET 3");
+        Intent i = new Intent(MainActivity.this, SecondActivity.class);
+        startActivity(i);
     }
 }
