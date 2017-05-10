@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.i("PRIMO BRANCH", "CLICK");
                 Log.i("SECONDO BRANCH", "CLICK");
                 Log.i("SECONDO BRANCH DI NUOVO", "CLICK");
+                Log.i("TERZO BRANCH", "CLICK");
                 Intent i = new Intent(MainActivity.this, SecondActivity.class);
                 startActivity(i);
             }
