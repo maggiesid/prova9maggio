@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.i("PRIMO", "CLICK");
                 Intent i = new Intent(MainActivity.this, SecondActivity.class);
                 startActivity(i);
             }
