@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.i("PRIMO BRANCH", "CLICK");
                 Log.i("SECONDO BRANCH", "CLICK");
+                Log.i("SECONDO BRANCH DI NUOVO", "CLICK");
                 Intent i = new Intent(MainActivity.this, SecondActivity.class);
                 startActivity(i);
             }
