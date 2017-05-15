@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.i("PRIMO BRANCH", "CLICK");
+                Log.i("PRIMO BRANCH!!!!!!", "CLICK");
                 Log.i("SECONDO BRANCH", "CLICK");
                 Log.i("SECONDO BRANCH DI NUOVO", "CLICK");
                 Log.i("TERZO BRANCH", "CLICK");
