@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("MAIN", "DEVELOP");
         Log.i("MAIN", "DEVELOP 2");
         Log.i("MAIN", "DEVELOP 3");
-
+        Log.i("MAIN", "MASTER 4");
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
