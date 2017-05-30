@@ -5,10 +5,9 @@ package com.example.margheritasidoti.a9maggio;
  */
 
 public class Goodbye {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("Goodbye");
-          System.out.println("Goodbye again               ");
-        
-         System.out.println("Goodbye again and again");
+        System.out.println("Goodbye again");
+        System.out.println("Goodbye again and again");
     }
 }
