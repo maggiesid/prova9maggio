@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         Button button = (Button)findViewById(R.id.button);
         Log.i("MAIN", "DEVELOP");
         Log.i("MAIN", "DEVELOP 2");
+        Log.i("MAIN", "DEVELOP 3");
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
