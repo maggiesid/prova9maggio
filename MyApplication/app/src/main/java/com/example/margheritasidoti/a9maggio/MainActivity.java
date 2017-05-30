@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("MAIN", "task tracked 9");
         Log.i("MAIN", "task tracked 10");
         Log.i("MAIN", "task tracked 2  11");
+        Log.i("MAIN", "NON TRACKED 12");
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
