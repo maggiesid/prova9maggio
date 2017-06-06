@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, SecondActivity.class);
                 startActivity(i);
+                Log.i("MAIN", "6 giugno dal primo");
             }
         });
 
