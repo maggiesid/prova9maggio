@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent i = new Intent(MainActivity.this, SecondActivity.class);
                 startActivity(i);
                 Log.i("MAIN", "6 giugno dal primo");
+                Log.i("MAIN", "6 giugno DI NUOVO dal primo");
             }
         });
 
