@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
                 Log.i("MAIN", "6 giugno dal primo");
                 Log.i("MAIN", "6 giugno DI NUOVO dal primo");
+
+                Log.i("MAIN", "6 giugno dal secondo");
             }
         });
 
