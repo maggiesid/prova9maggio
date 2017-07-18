@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.i("MAIN", "18 luglio");
+
         Button button = (Button)findViewById(R.id.button);
         Log.i("MAIN", "DEVELOP");
         Log.i("MAIN", "DEVELOP 2");
